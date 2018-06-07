@@ -1,0 +1,21 @@
+﻿Git 教程
+创建版本库
+    创建空目录后使用“git init”将目录变成可管理的仓库
+    添加文件到目录： 1.git add readme.txt      将文件添加到仓库
+                    2.git commit -m "(提交说明)"
+                    一次提交多个文件时
+                        $ git add file1.txt
+                        $ git add file2.txt file3.txt
+                        $ git commit -m "add 3 files."
+时光机穿梭
+    git status  掌握仓库当前状态
+    git diff readme.txt  查看修改内容
+    版本回退
+        git log 查看历次修改纪律
+        git log --pretty = online
+        git reset --hard HEAD^ 版本回退到上一个版本
+        git reset --hard 1094a 版本回退到1094a版本
+        git reflog 记录每一次命令
+
+    工作区和暂存区
+        
