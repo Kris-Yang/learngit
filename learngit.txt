@@ -1,7 +1,10 @@
 ﻿Git 教程
 
-cd /d/Git/learngit 进入abc文件夹
-cat readme.txt 打开readme.txt
+安装git
+    $ git config --global user.name "Your Name" 设置用户名
+    $ git config --global user.email "email@example.com" 设置email
+    cd /d/Git/learngit 进入abc文件夹
+    cat readme.txt 打开readme.txt
 创建版本库
     创建空目录后使用“git init”将目录变成可管理的仓库
     添加文件到目录： 1.git add readme.txt      将文件添加到仓库
@@ -86,6 +89,9 @@ cat readme.txt 打开readme.txt
         推送远程后删除标签
             git tag -d v0.9 先从本地删除
             git push origin :refs/tags/v0.9 再从远程删除
+
+
+            123
 
             
             
