@@ -1,4 +1,7 @@
 ﻿Git 教程
+
+cd /d/abc 进入abc文件夹
+
 创建版本库
     创建空目录后使用“git init”将目录变成可管理的仓库
     添加文件到目录： 1.git add readme.txt      将文件添加到仓库
@@ -29,3 +32,6 @@
         git rm text.txt 从版本库里删除
         git commit 提交
 
+
+远程仓库
+    在用户主目录下 ssh-keygen -t rsa -C "youremail@example.com" 创建SSH key
