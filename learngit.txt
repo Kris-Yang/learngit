@@ -1,7 +1,7 @@
 ﻿Git 教程
 
-cd /d/abc 进入abc文件夹
-
+cd /d/Git/learngit 进入abc文件夹
+cat readme.txt 打开readme.txt
 创建版本库
     创建空目录后使用“git init”将目录变成可管理的仓库
     添加文件到目录： 1.git add readme.txt      将文件添加到仓库
@@ -49,6 +49,24 @@ cd /d/abc 进入abc文件夹
                      -b 表示创建并切换 == git branch dev 创建分支  git checkout dev 切换分支
         git branch 查看当前分支
         git branch -d dev 删除dev分支
+        git merge dev 将dev合并至master
+    解决冲突
+        出现冲突时，手动在master分支下解决冲突
+        git log --graph --pretty=oneline --abbrev-commit 查看分支合并情况
+    分支管理策略
+        git merge --no-ff -m "merge with no-ff" dev merge时形成新的commit，可以从历史上看出分支信息
+        分支策略
+            master不能用来干活
+            在每个人的各自分支上干活
+            干完活之后将往dev分支上合并
+    bug分支
+        git stash 将当前工作现场储藏起来，以后再恢复工作
         
+    
+        
+        
+        
+        
+
 
     
